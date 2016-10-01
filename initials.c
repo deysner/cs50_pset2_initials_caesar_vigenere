@@ -17,7 +17,7 @@ char getUpperCaseChar(char);
 
 int main(void)
 {
-    // get line of text
+    // Get line of text
     string s = GetString();
     
     printf("%c", getUpperCaseChar( s[0] ) );
